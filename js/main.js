@@ -32,8 +32,9 @@ function init() {
 
     //controls.addEventListener( 'change', render ); // call this only in static scenes (i.e., if there is no animation loop)
 //amortigua el movimiento
+
     controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-    controls.dampingFactor = 0.5;
+    controls.dampingFactor = 0.05;
 
     controls.screenSpacePanning = false;
 
